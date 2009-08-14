@@ -343,7 +343,8 @@ def run():
 				keys = pygame.key.get_pressed()
 				if keys[K_LCTRL]:
 					fghtr.fire()
-									
+				
+				print world.entity_id
 				background.fill((20,20,100))
 				screen.blit(background, (0, 0))
 				
